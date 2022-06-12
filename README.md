@@ -89,3 +89,28 @@ Depuración: Visual Studio Code incluye la función de depuración que ayuda a d
 Uso del control de versiones: Visual Studio Code tiene compatibilidad con Git, por lo que puedes revisar diferencias o lo que conocemos con git diff, organizar archivos, realizar commits desde el editor, y hacer push y pull desde cualquier servicio de gestión de código fuente (SMC). Los demás SMC están disponible por medio de extensiones.
 
 Extensiones: Hasta ahora, he mencionado varias veces el término extensiones porque es uno de los puntos fuertes. Visual Studio Code es un editor potente y en gran parte por las extensiones. Las extensiones nos permiten personalizar y agregar funcionalidad adicional de forma modular y aislada. Por ejemplo, para programar en diferentes lenguajes, agregar nuevos temas al editor, y conectar con otros servicios. Realmente las extensiones nos permiten tener una mejor experiencia, y lo más importante, no afectan en el rendimiento del editor, ya que se ejecutan en procesos independientes.
+
+
+## 📑 XAMPP
+
+XAMPP,  es un servidor de plataforma libre, es un software que integra en una sola aplicación, un servidor web Apache, interpretes de lenguaje de scripts PHP, un servidor de base de datos MySQL, un servidor de FTP FileZilla, el popular administrador de base de datos escrito en PHP, MySQL, entre otros módulos.
+Te permite instalar de forma sencilla Apache en tu propio ordenador, sin importar tu sistema operativo (Linux, Windows, MAC  o Solaris). Y lo mejor de todo es que su uso es gratuito.
+Ventajas y Desventajas
+
+Xampp es una herramienta muy práctica que nos permite instalar el entorno MySQL, Apache y PHP , suficiente para empezar proyectos web o revisar alguna aplicación  localmente. Ademas trae otros servicios como servidor de correos y servidor FTP.
+
+Si alguna vez has intentado instalar Apache, sabes que no es una tarea fácil, sin embargo con XAMPP todo es diferente. Una de las ventajas de usar XAMPP es que  su instalación es de lo mas sencilla, basta descargarlo, extraerlo y comenzar a usarlo. En general es bastante fácil la instalacion de apache y php sobre  Unix, sobre todo si dispone de un manejador de paquetes.
+
+La mayor ventaja de Xampp es que es muy fácil de instalar y las configuraciones son mínimas o inexistentes, lo cual nos ahorra bastante tiempo. Sin embargo hay ocasiones en que es mejor dejar atrás la comodidad por las siguientes razones:
+
+-No soporta MySQL desde la consola.
+Xampp trae PhpMyAdmin para administrar las bases de datos de MySQL,  sin embargo para tareas más específicas es mejor utilizar la consola (linea de comandos) y Xampp no la soporta.
+
+-No se pueden actualizar individualmente  las versiones de los programas que instala.
+Xampp trae las últimas versiones de las aplicaciones que instala, sin embargo cuando pasa el tiempo y salen nuevas versiones de las mismas, no queda otra salida que reinstalar todo Xampp. 
+
+-Dificultad para configurar aplicaciones de terceros.
+Y si queremos instalar una aplicación para manejo de subversiones en nuestro servidor?. Si en Xampp se puede mediante algún método alternativo ( llamesehacks), pero resultan bastante engorrorsos y a veces inservibles.
+
+-Una desventaja es la garantía.
+Este programa se distribuye con la esperanza de que sea útil, mas sin ninguna garantía, sin siquiera la garantía implícita de su mercadibilidad y aptitud para un propósito determinado.
