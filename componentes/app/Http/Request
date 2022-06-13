@@ -1,0 +1,14 @@
+<!-- recordar añadir Request en el que caso que nuestro controlador no lo tenga importado -->
+use Illuminate\Http\Request;
+
+class Controller extends BaseController
+{
+
+ public function subirArchivo(Request $request)
+ {
+        //Recibimos el archivo y lo guardamos en la carpeta storage/app/public
+        $request->file('archivo')->store('public');
+        dd("subido y guardado");
+ }
+
+}
